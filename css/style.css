@@ -208,6 +208,7 @@ input[type="tel"] {
     padding: 6px 15px;
     color: #747474;
     max-width: 100%;
+    border-radius: 5px;
 }
 
 input[type="text"]:focus,
@@ -265,7 +266,7 @@ input[type="submit"] {
 
 .button:hover,
 input[type="submit"]:hover {
-    background-color: #2e2f34;
+    background-color: #00549f;
     color: #fff;
 }
 
@@ -4157,7 +4158,7 @@ FOOTER
 -----------------------------------*/
 
 .footer {
-    background-color: #000;
+    background-color: #09549f;
     color: #fff;
     padding-top: 50px;
 }
@@ -4190,7 +4191,7 @@ FOOTER
     margin-top: 10px;
 }
 .footer .widget .content ul li img{
-    height: 90px !important;
+/*    height: 90px !important;*/
 }
 
 .footer .contact-info .content {
@@ -4243,7 +4244,8 @@ FOOTER
 
 .footer .footer-bottom {
     margin-top: 40px;
-    background: #2e2f34;
+    background: #e5e5e5;
+    color: #333;
 }
 
 .footer .footer-bottom p {
@@ -6252,7 +6254,7 @@ font-family: 'AkzidenzGrotesk';
 .product-details-right .product-name {
     font-size: 18px;
     color: #222;
-    text-transform: uppercase;
+   
     margin-bottom: 10px;
 }
 
@@ -6298,7 +6300,7 @@ font-family: 'AkzidenzGrotesk';
     clear: left;
     padding: 16px 33px;
     font-size: 14px;
-    background: #2e2f34;
+    background: #09549f;
 }
 
 .product-details-right .quantity {
@@ -6547,8 +6549,8 @@ font-family: 'AkzidenzGrotesk';
 }
 
 .tab-details-product .box-tabs li a {
-    color: #222;
-    text-transform: uppercase;
+    color: #0083be;
+    
 }
 
 .tab-details-product .box-tabs li a:after {
@@ -6557,7 +6559,7 @@ font-family: 'AkzidenzGrotesk';
     display: block;
     width: 0%;
     margin-top: 3px;
-    background-color: #e23c26;
+    background-color: #ed8301;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
 }
@@ -9908,13 +9910,13 @@ li.info-pts {
   .sty-btn span {
     display: inline-block;
     padding: 5px 10px;
-    border: 2px solid #2e2f34;
+    border: 2px solid #00549f;
     border-radius: 3px;
-    color: #2e2f34;
+    color: #00549f;
   }
   
   .sty-btn input[type="checkbox"]:checked + span {
-    background-color: #2e2f34;
+    background-color: #00549f;
     color: #fff;
   }
 
